@@ -1,0 +1,13 @@
+# Global LLM configuration
+[llm]
+model = "gemini-1.5-pro"
+base_url = "https://generativelanguage.googleapis.com/v1beta"
+api_key = "AIzaSyDX8cPP9J3EXEQqFB-XpQ6HumU4zQ16u8A"  # Store this in env vars
+max_tokens = 4096
+temperature = 0.0
+
+# Optional configuration for specific LLM models
+[llm.vision]
+model = "gemini-1.5-pro-vision"
+base_url = "https://generativelanguage.googleapis.com/v1beta"
+api_key = "AIzaSyDX8cPP9J3EXEQqFB-XpQ6HumU4zQ16u8A"  # Store this in env vars
